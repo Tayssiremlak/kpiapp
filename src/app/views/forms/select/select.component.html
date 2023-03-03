@@ -1,0 +1,40 @@
+<div class="row">
+ <div class="col-md-40">
+    <h3> liste des formules KPI</h3>
+    <div class="outerDiv">
+        <div class="row">
+            <div class="col-md-40">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>
+                                sr 
+                            </th>
+                            <th>
+                                KPI
+                            </th>
+                            <th>
+                                formule
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody *ngFor="let item of selectArr;let sr = index">
+                        <td>{{sr+1}}</td>
+                        <td>{{item.KPI}}</td>
+                        
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        
+    </div>
+
+ </div>
+
+
+
+
+
+</div>
